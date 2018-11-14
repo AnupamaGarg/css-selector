@@ -1,0 +1,38 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(29, 47, 54);
+}
+
+li {
+    float: left;
+    border: goldenrod 1px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.disabled{
+    color: blue;
+}
+
+.active{
+    color:yellow;
+}
+.parent > div >h4:first-child{
+color:red;
+}
